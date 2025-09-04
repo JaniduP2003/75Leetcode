@@ -20,7 +20,7 @@ namespace HelloWorldApp
 
             for (int i = 0; i < num; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(arry[i]);
 
 
             }
