@@ -6,8 +6,20 @@ namespace HelloWorldApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            
+
+            int?[] arry;
+
+            for (int i; i < num; i++)
+            {
+                //readline 
+            }
+
+            for (int i = 0; i < num; i++)
+            {
+                Console.WriteLine(i);
+
+
+            }
         }
     }
 }
