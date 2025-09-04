@@ -15,7 +15,7 @@ namespace HelloWorldApp
             for (int i = 0; i < num; i++)
             {
                 //readline 
-                arry[i] = num;
+                arry[i] = int.Parse(Console.ReadLine());
             }
 
             for (int i = 0; i < num; i++)
