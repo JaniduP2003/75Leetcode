@@ -8,12 +8,14 @@ namespace HelloWorldApp
         {
 
             int num = int.Parse(Console.ReadLine());
-            int?[] arry =new  int?[num] ;    
-         // this side decration = and crating in memeory
+            int?[] arry =new  int?[num] ;
+            // this side decration = and crating in memeory 
+            
 
-            for (int i; i < num; i++)
+            for (int i = 0; i < num; i++)
             {
                 //readline 
+                arry[i] = num;
             }
 
             for (int i = 0; i < num; i++)
