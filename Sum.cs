@@ -7,7 +7,7 @@ namespace Sum
         static void Main(string[] args)
         {
 
-            int num = Console.ReadLine();
+            string num = Console.ReadLine();
 
            string[] parts =num.Split(' ');  //splits the input in to part
 
