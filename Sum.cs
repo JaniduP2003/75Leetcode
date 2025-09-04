@@ -8,9 +8,12 @@ namespace Sum
         {
 
             int num = int.Parse(Console.ReadLine());
-           
-            int?[] arry =new  int?[num] ;
-            // this side decration = and crating in memeory 
+
+           int[] parts =string.Split(' ');  //splits the input in to parts
+
+
+            int[] arry = Array.ConvertAll(parts, int.Parse); //all the parts are now string in this line convertetd to int 
+             
             
             for (int i = 0; i < num; i++)
             {
