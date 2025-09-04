@@ -7,9 +7,9 @@ namespace Sum
         static void Main(string[] args)
         {
 
-            int num = int.Parse(Console.ReadLine());
+            int num = Console.ReadLine();
 
-           int[] parts =string.Split(' ');  //splits the input in to parts
+           string[] parts =num.Split(' ');  //splits the input in to part
 
 
             int[] arry = Array.ConvertAll(parts, int.Parse); //all the parts are now string in this line convertetd to int 
