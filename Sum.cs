@@ -7,7 +7,9 @@ namespace HelloWorldApp
         static void Main(string[] args)
         {
 
-            int?[] arry;
+            int num = int.Parse(Console.ReadLine());
+            int?[] arry =new  int?[num] ;    
+         // this side decration = and crating in memeory
 
             for (int i; i < num; i++)
             {
