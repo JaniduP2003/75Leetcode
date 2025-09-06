@@ -8,14 +8,38 @@ namespace Sum
 
         static void Main(string[] args)
         {
-            int target = int.Parse(Console.ReadLine());
-            Console.WriteLine(target);
+            //int target = int.Parse(Console.ReadLine());
+            //Console.WriteLine(target);
 
+            int input = int.Parse(Console.ReadLine());     
             Stack<char> stack = new Stack<char>();
-            stack.Push('(');
-            stack.Push(')');
+            
+            
+            
 
-            Console.WriteLine(stack.Pop());
+            foreach (char number in input)
+            {
+                if (number == '(')
+                {
+                    stack.Push(number);
+                }
+                else if (number == '{')
+                {
+                    stack.Push(number);
+
+                }
+                else if (number == '[')
+
+                {
+                    stack.Push(number);
+                }
+                else
+                {
+                    stack.Push(number);
+                }
+            }
+
+            //Console.WriteLine(stack.Pop());
 
         }
     }
