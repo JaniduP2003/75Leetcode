@@ -11,11 +11,11 @@ namespace Sum
             //int target = int.Parse(Console.ReadLine());
             //Console.WriteLine(target);
 
-            char input = char.Parse(Console.ReadLine());     
+            string input = Console.ReadLine();
             Stack<char> stack = new Stack<char>();
-            
-            
-            
+
+
+
 
             foreach (char number in input)
             {
@@ -39,6 +39,10 @@ namespace Sum
                 }
             }
 
+            foreach (var item in stack)
+            {
+                Console.WriteLine(item);
+            }
             //Console.WriteLine(stack.Pop());
 
         }
