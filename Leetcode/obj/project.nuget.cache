@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bTpfYZ7vyq8=",
+  "success": true,
+  "projectFilePath": "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/Leetcode.csproj",
+  "expectedPackageFiles": [
+    "/home/janidu/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

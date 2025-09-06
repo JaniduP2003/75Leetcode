@@ -1,0 +1,5 @@
+/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/Debug/net9.0/Leetcode.GeneratedMSBuildEditorConfig.editorconfig
+/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/Debug/net9.0/Leetcode.AssemblyInfoInputs.cache
+/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/Debug/net9.0/Leetcode.AssemblyInfo.cs
+/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/Debug/net9.0/Leetcode.csproj.CoreCompileInputs.cache
+/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/Debug/net9.0/Leetcode.sourcelink.json
