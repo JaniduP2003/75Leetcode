@@ -11,7 +11,7 @@ namespace Sum
             //int target = int.Parse(Console.ReadLine());
             //Console.WriteLine(target);
 
-            int input = int.Parse(Console.ReadLine());     
+            char input = char.Parse(Console.ReadLine());     
             Stack<char> stack = new Stack<char>();
             
             
