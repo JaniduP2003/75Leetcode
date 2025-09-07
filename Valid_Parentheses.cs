@@ -37,23 +37,30 @@ namespace Sum
                 {
                     if (number == ')')
                     {
-                        stack.Pop(number);
+                        stack.Pop();
                     }
                     else if (number == '}')
                     {
-                        stack.Pop(number);
+                        stack.Pop();
 
                     }
                     else if (number == ']')
 
                     {
-                        stack.Pop(number);
+                        stack.Pop();
                     }
 
                 }
             }
-            
-            stack.Pop
+
+            if (stack.Count == 0)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("fulse");
+            }
 
             // foreach (var item in stack)
             // {Console.WriteLine(item);}
