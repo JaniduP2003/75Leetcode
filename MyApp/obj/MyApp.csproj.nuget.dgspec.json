@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/Leetcode.csproj": {}
+    "/home/janidu/Documents/GitHub/75Leetcode/MyApp/MyApp.csproj": {}
   },
   "projects": {
-    "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/Leetcode.csproj": {
+    "/home/janidu/Documents/GitHub/75Leetcode/MyApp/MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/Leetcode.csproj",
-        "projectName": "Leetcode",
-        "projectPath": "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/Leetcode.csproj",
+        "projectUniqueName": "/home/janidu/Documents/GitHub/75Leetcode/MyApp/MyApp.csproj",
+        "projectName": "MyApp",
+        "projectPath": "/home/janidu/Documents/GitHub/75Leetcode/MyApp/MyApp.csproj",
         "packagesPath": "/home/janidu/.nuget/packages/",
-        "outputPath": "/home/janidu/Documents/GitHub/75Leetcode/Leetcode/obj/",
+        "outputPath": "/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/janidu/.nuget/NuGet/NuGet.Config"

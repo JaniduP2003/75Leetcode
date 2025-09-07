@@ -1,0 +1,15 @@
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/bin/Debug/net9.0/MyApp
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/bin/Debug/net9.0/MyApp.deps.json
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/bin/Debug/net9.0/MyApp.runtimeconfig.json
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/bin/Debug/net9.0/MyApp.dll
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/bin/Debug/net9.0/MyApp.pdb
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfoInputs.cache
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.AssemblyInfo.cs
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.csproj.CoreCompileInputs.cache
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.sourcelink.json
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.dll
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/refint/MyApp.dll
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.pdb
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
+/home/janidu/Documents/GitHub/75Leetcode/MyApp/obj/Debug/net9.0/ref/MyApp.dll
