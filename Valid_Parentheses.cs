@@ -35,14 +35,28 @@ namespace Sum
                 }
                 else
                 {
-                    stack.Push(number);
+                    if (number == ')')
+                    {
+                        stack.Pop(number);
+                    }
+                    else if (number == '}')
+                    {
+                        stack.Pop(number);
+
+                    }
+                    else if (number == ']')
+
+                    {
+                        stack.Pop(number);
+                    }
+
                 }
             }
+            
+            stack.Pop
 
-            foreach (var item in stack)
-            {
-                Console.WriteLine(item);
-            }
+            // foreach (var item in stack)
+            // {Console.WriteLine(item);}
             //Console.WriteLine(stack.Pop());
 
         }
