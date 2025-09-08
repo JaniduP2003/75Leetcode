@@ -40,7 +40,7 @@ if (stack.Count == 0)
                 else if (stack.Peek() == '{' && number == '}' )
                 {
                     stack.Pop();
-                } else if( stack.Peek() == ']' || stack.Peek() == ')' || stack.Peek() == '}'){ Console.WriteLine("fulse") ;}
+                } else if( number == ']' || number  == ')' || number  == '}') { Console.WriteLine("fulse") ;}
 
 
             if (stack.Count == 0)
