@@ -25,7 +25,15 @@ namespace Sum
                 }
 
 
-                if (stack.Peek() == '(' && number == ')')
+                if (stack.Count == 0)
+                {
+     
+        
+    }
+                else
+
+
+               if (stack.Peek() == '(' && number == ')')
                 {
                     stack.Pop();
 
