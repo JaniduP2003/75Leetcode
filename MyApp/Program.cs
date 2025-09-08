@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.Win32.SafeHandles;
 
 namespace Sum
 {
@@ -12,22 +13,27 @@ namespace Sum
             //Console.WriteLine(target);
 
             string input = Console.ReadLine();
+             
+             IsValid(input);
+            
+
+        }
+        public bool IsValid(string s)
+        {
+
             Stack<char> stack = new Stack<char>();
 
-
-
-
-            foreach (char number in input)
-          {
-                if (number == '(' || number == '[' || number == '{'  )
+            foreach (char number in s)
+            {
+                if (number == '(' || number == '[' || number == '{')
                 {
                     stack.Push(number);
                 }
 
-if (stack.Count == 0)
-                {    return false ;}
+                if (stack.Count == 0)
+                { return false; }
                 else
-                if (stack.Peek() == '(' && number == ')'  )
+                                if (stack.Peek() == '(' && number == ')')
                 {
                     stack.Pop();
 
@@ -35,29 +41,26 @@ if (stack.Count == 0)
                 else if (stack.Peek() == '[' && number == ']')
                 {
                     stack.Pop();
-                        
+
                 }
-                else if (stack.Peek() == '{' && number == '}' )
+                else if (stack.Peek() == '{' && number == '}')
                 {
                     stack.Pop();
-                } else if( number == ']' || number  == ')' || number  == '}') { Console.WriteLine("fulse") ;}
+                }
+                else if (number == ']' || number == ')' || number == '}') { return false; }
+
+            }
 
 
             if (stack.Count == 0)
             {
-                Console.WriteLine("True");
+                return true;
             }
             else
             {
-                Console.WriteLine("fulse");
+                return false;
             }
-
-            // foreach (var item in stack)
-            // {Console.WriteLine(item);}
-            //Console.WriteLine(stack.Pop());
-
         }
     }
 }
-
 //new comments in git
