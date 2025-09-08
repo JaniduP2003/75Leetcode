@@ -18,36 +18,30 @@ namespace Sum
 
 
             foreach (char number in input)
-            {
-                if (number == '(' || number == '{' || number == '[')
+           {
+                if (number == '(' || number == '[' || number == '{' && number == ')' || number == ']' || number == '}' )
                 {
                     stack.Push(number);
                 }
 
-
-                if (stack.Count == 0)
-                {
-     
-        
-    }
+if (stack.Count == 0)
+                {     }
                 else
-
-
-               if (stack.Peek() == '(' && number == ')')
+                if (stack.Peek() == '(' && number == ')' || stack.Peek() == ')' && number == '(' )
                 {
                     stack.Pop();
 
                 }
-                else if (stack.Peek() == '[' && number == ']')
+                else if (stack.Peek() == '[' && number == ']' || stack.Peek() == ']' && number == ']')
                 {
                     stack.Pop();
-
+                        
                 }
-                else if (stack.Peek() == '{' && number == '}')
+                else if (stack.Peek() == '{' && number == '}' || stack.Peek() == '{' && number == '}')
                 {
                     stack.Pop();
                 }
-
+                   
             }
 
 
