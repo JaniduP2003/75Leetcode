@@ -33,17 +33,17 @@ namespace Sum
                 else if (stack.Peek() == '[' && number == ']')
                 {
                     stack.Pop();
-                        
+
                 }
                 else if (stack.Peek() == '{' && number == '}')
                 {
                     stack.Pop();
                 }
-                   
+
             }
 
-             
-             if (stack.Count == 0)
+
+            if (stack.Count == 0)
             {
                 Console.WriteLine("True");
             }
@@ -59,3 +59,5 @@ namespace Sum
         }
     }
 }
+
+//new comments in git
