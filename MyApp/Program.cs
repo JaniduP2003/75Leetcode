@@ -22,13 +22,23 @@ namespace Sum
                 if (number == '(' || number == '{' || number == '[')
                 {
                     stack.Push(number);
-                } 
-               
-              
-               if (number == ')' || number == '}' || number == ']')
-                    {
-                        stack.Pop();
-                    }
+                }
+
+
+                if (stack.Peek() == '(' && number == ')')
+                {
+                    stack.Pop();
+
+                }
+                else if (stack.Peek() == '[' && number == ']')
+                {
+                    stack.Pop();
+                        
+                }
+                else if (stack.Peek() == '{' && number == '}')
+                {
+                    stack.Pop();
+                }
                    
             }
 
